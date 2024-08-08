@@ -33,20 +33,20 @@ int main(){
 			}
 			
 			if (result == 0){
-			printf("A primeira palavra (%s ) È igual ‡ segunda (%s )\n", palavra1, palavra2);
+			printf("A primeira palavra (%s ) √© igual √† segunda (%s )\n", palavra1, palavra2);
 		}
 		
 			else if (letrasDif){
-				printf("A primeira palavra (%s ) tem o mesmo tamanho que a segunda (%s ), mas s„o palavras diferentes\n", palavra1, palavra2);
+				printf("A primeira palavra (%s ) tem o mesmo tamanho que a segunda (%s ), mas s√£o palavras diferentes\n", palavra1, palavra2);
 			}
 		}
 		
 		else if (result < 0){
-			printf("A primeira palavra (%s ) È menor que a segunda (%s )\n", palavra1, palavra2);
+			printf("A primeira palavra (%s ) √© menor que a segunda (%s )\n", palavra1, palavra2);
 		}
 		
 		else if (result > 0){
-			printf("A primeira palavra (%s ) È maior que a segunda (%s )\n", palavra1, palavra2);
+			printf("A primeira palavra (%s ) √© maior que a segunda (%s )\n", palavra1, palavra2);
 			
 			for (int i = 0; i < tamanho2; i++){
 				if(palavra2[i] == palavra1[i]){
@@ -59,7 +59,7 @@ int main(){
 			}
 			
 			if (substring){
-				printf("A segunda palavra (%s ) È sub-string da primeira (%s )\n", palavra2, palavra1);
+				printf("A segunda palavra (%s ) √© sub-string da primeira (%s )\n", palavra2, palavra1);
 			}
 		} 
 	
